@@ -1,5 +1,11 @@
-import subprocess
+#Run on terminal: python -m streamlit run ./10-Chatbot_LLamaIndex_Streamlit_backend.py
+
 import sys
+import subprocess
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'llama-index'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'streamlit'])
+
 import os
 import sys
 import shutil
@@ -14,7 +20,7 @@ import openai
 import streamlit as st
 
 import os
-#os.environ["OPENAI_API_KEY"] = "<the key>"
+os.environ["OPENAI_API_KEY"] = "key"
 
 import sys
 import shutil
@@ -39,7 +45,6 @@ from llama_index.core import KeywordTableIndex
 from llama_index.core import SimpleKeywordTableIndex
 from llama_index.core import DocumentSummaryIndex
 from llama_index.core import KnowledgeGraphIndex
-from llama_index.experimental.query_engine import PandasQueryEngine
 
 
 ## LlamaIndex Context Managers
