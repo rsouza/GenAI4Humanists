@@ -1,20 +1,27 @@
-!pip install -q langchain
-!pip install -q llama-index
-!pip install -q llama-hub
-!pip install -q accelerate
-!pip install -q bitsandbytes
-!pip install -q transformers
-!pip install -q sentence_transformers
-!pip install -q InstructorEmbedding
-!pip install -q chromadb
-!pip install -q streamlit
-!pip install -q dotenv
 
-import streamlit as st
-from dotenv import load_dotenv
-import torch
+import subprocess
 import sys
 import os
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install("python-dotenv")
+install("llama-index")
+install("llama-hub")
+install("streamlit")
+install("accelerate")
+install("bitsandbytes")
+install("transformers")
+install("sentence_transformers")
+install("InstructorEmbedding")
+install("chromadb")
+install("torch")
+
+
+from dotenv import load_dotenv
+import torch
+import streamlit as st
 from transformers import BitsAndBytesConfig
 
 # llama_index
