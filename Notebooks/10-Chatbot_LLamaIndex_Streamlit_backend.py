@@ -63,7 +63,7 @@ from llama_index.core.base.llms.types import ChatMessage, MessageRole
 from llama_index.core.callbacks import CallbackManager
 from llama_index.core.callbacks import LlamaDebugHandler
 
-PERSIST_DIR = "../Index/VectorStoreIndex/"
+PERSIST_DIR = "../Index/ChatExample/"
 
 vectorstoreindex = load_index_from_storage(storage_context=StorageContext.from_defaults(persist_dir=PERSIST_DIR))
 chat_engine = vectorstoreindex.as_chat_engine(chat_mode="condense_question", verbose=True)

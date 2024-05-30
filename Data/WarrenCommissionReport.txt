@@ -23,40 +23,8 @@ Credits: Produced by Curtis Weyant, Charlie Howard, and the Online
 *** START OF THE PROJECT GUTENBERG EBOOK REPORT OF THE PRESIDENT'S COMMISSION ON THE ASSASSINATION OF PRESIDENT JOHN F. KENNEDY ***
 
 
-
-
 Produced by Curtis Weyant, Charlie Howard, and the Online
 Distributed Proofreading Team at http://www.pgdp.net
-
-
-
-
-
-
-
-
-
-Transcriber’s Notes
-
-
-Crossed-out text is indicated with ~tildes~, boldface with =equals
-signs=, italics with _underscores_, and superscripts with ^{carets and
-braces}.
-
-Footnote notation: In the original book, the footnote numbering
-sequence began at “1” in the Foreword and in each Chapter and Appendix.
-To make these numbers unique in this eBook, they have been modified
-to include a prefix that identifies the Chapter or Appendix to which
-they belong, and are enclosed in square brackets, e.g., [F-1], [C5-46],
-[A12-115]. Simple numbers in square brackets, e.g., [212], were shown
-that way in the original text. Bottom-of-page footnotes, e.g., [A],
-were shown as [*] in the original text, but were changed here to
-sequential letters. In the orignal text, a few missing letters were
-added in square brackets, e.g., [W]e, and are shown that way here.
-
-Other Notes are at the end of this eBook.
-
-
 
 
 REPORT OF THE PRESIDENT’S COMMISSION ON THE ASSASSINATION OF PRESIDENT
@@ -115,8 +83,6 @@ Photo credits:
   ISBN 0-312-08257-6 (pbk.)
 
 
-
-
   PRESIDENT’S COMMISSION
   ON THE
   ASSASSINATION OF PRESIDENT KENNEDY
@@ -167,8 +133,6 @@ _Staff Members_
 
     [A] Mr. Willens also acted as liaison between the Commission
         and the Department of Justice.
-
-
 
 
 PRESIDENT’S COMMISSION
@@ -224,10 +188,7 @@ John J. McCloy
 [Illustration]
 
 
-
-
 Foreword
-
 
 PRESIDENT LYNDON B. JOHNSON, by Executive Order No. 11130 dated
 November 29, 1963,[F-1] created this Commission to investigate the
@@ -560,8 +521,6 @@ Commission is committing all of its reports and working papers to the
 National Archives, where they can be permanently preserved under the
 rules and regulations of the National Archives and applicable Federal
 law.
-
-
 
 
 Contents
