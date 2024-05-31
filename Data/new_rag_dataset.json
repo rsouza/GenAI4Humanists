@@ -1,0 +1,34 @@
+{
+    "examples": [
+        {
+            "query": "This is a test query, is it not?",
+            "query_by": {
+                "model_name": "gpt-4",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "This is a sample context"
+            ],
+            "reference_answer": "Yes it is.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "This is a test query, is it so?",
+            "query_by": {
+                "model_name": "gpt-4",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "This is a second sample context"
+            ],
+            "reference_answer": "I think yes, it is.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        }
+    ]
+}
