@@ -4,7 +4,7 @@ from openai import OpenAI
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
 
-st.title("💬 Chatbot")
+st.title("💬 My first Chatbot!")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]

@@ -8,7 +8,8 @@ from llama_index.core import load_index_from_storage
 PERSIST_DIR = "../../Index/VectorStoreIndex/"
 
 # Title
-st.title("💬 Chat with Documents from your Vector Index")
+st.title("💬 My Second Chatbot:")
+st.title("Talking to my Documents!")
 
 # Sidebar for API Key input
 with st.sidebar:
@@ -24,7 +25,8 @@ with st.sidebar:
 try:
     storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
     vectorstoreindex = load_index_from_storage(storage_context=storage_context)
-    chat_engine = vectorstoreindex.as_chat_engine(chat_mode="condense_question", verbose=True)
+    chat_engine = vectorstoreindex.as_chat_engine(chat_mode="context",
+                                                  verbose=True)
 except Exception as e:
     st.error(f"Failed to load the vector store index: {e}")
     st.stop()
