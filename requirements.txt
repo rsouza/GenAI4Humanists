@@ -13,3 +13,8 @@ instructor==1.7.8
 litellm==1.65.1
 igraph==0.11.8
 plotly==6.0.1
+llama-index
+langchain
+huggingface_hub
+streamlit
+jupyter
