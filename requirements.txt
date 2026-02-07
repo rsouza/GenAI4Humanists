@@ -1,38 +1,63 @@
-Pillow
-SQLAlchemy
-accelerate
-beautifulsoup4
-bitsandbytes
-crewai
-datasets
-python-dotenv
-google-api-python-client
-gradio
-huggingface-hub
-imageio
-ipython
-langchain
-llama-index
-matplotlib
-moviepy
-nest-asyncio
-networkx
-numpy
-ollama
-openai
-opencv-python
-pandas
-pdf2image
-peft
-pydantic
-requests
-scikit-learn
-sentence-transformers
-torch
-tqdm
-transformers
-trl
-wandb
-wikipedia
-websockets
-httpx-sse
+# Core Image and Database
+Pillow>=12.0.0,<13.0.0
+SQLAlchemy>=2.0.0,<3.0.0
+
+# Machine Learning Infrastructure
+accelerate>=1.12.0,<2.0.0
+bitsandbytes>=0.49.0,<1.0.0
+torch>=2.10.0,<3.0.0
+
+# AI/ML Frameworks
+crewai>=1.9.0,<2.0.0
+datasets>=4.5.0,<5.0.0
+transformers>=4.46.0,<5.0.0
+sentence-transformers>=5.2.0,<6.0.0
+peft>=0.18.0,<1.0.0
+trl>=0.17.0,<1.0.0
+
+# LLM APIs and Clients
+openai>=2.17.0,<3.0.0
+ollama>=0.6.0,<1.0.0
+langchain>=1.2.0,<2.0.0
+llama-index>=0.14.0,<1.0.0
+
+# Data Processing
+beautifulsoup4>=4.14.0,<5.0.0
+pandas>=2.3.0,<3.0.0
+numpy>=2.4.0,<3.0.0
+scikit-learn>=1.8.0,<2.0.0
+
+# Configuration and Environment
+python-dotenv>=1.2.0,<2.0.0
+
+# Google APIs
+google-api-python-client>=2.189.0,<3.0.0
+
+# UI and Visualization
+gradio>=6.5.0,<7.0.0
+matplotlib>=3.10.0,<4.0.0
+networkx>=3.6.0,<4.0.0
+
+# Hugging Face
+huggingface-hub>=0.36.0,<1.0.0
+
+# Media Processing
+imageio>=2.37.0,<3.0.0
+moviepy>=2.2.0,<3.0.0
+opencv-python>=4.13.0,<5.0.0
+pdf2image>=1.17.0,<2.0.0
+
+# Development and Interactive
+ipython>=9.10.0,<10.0.0
+
+# Utilities
+nest-asyncio>=1.6.0,<2.0.0
+pydantic>=2.12.0,<3.0.0
+requests>=2.32.0,<3.0.0
+tqdm>=4.67.0,<5.0.0
+wandb>=0.24.0,<1.0.0
+wikipedia>=1.4.0,<2.0.0
+
+# Networking
+websockets>=16.0,<17.0.0
+httpx-sse>=0.4.0,<1.0.0
