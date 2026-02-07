@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 import gradio as gr
 import multion
 import time
-from PIL import Image
+from PIL import Image, UnidentifiedImageError
 from io import BytesIO
 import requests
 from IPython.display import display, Markdown, HTML, clear_output
@@ -41,7 +41,8 @@ class ImageUtils:
             img_bytes = response.content
             img_io = BytesIO(img_bytes)
             return Image.open(img_io)
-        except:
+        except (requests.RequestException, IOError, UnidentifiedImageError) as e:
+            print(f"Warning: Failed to fetch screenshot: {e}")
             return None
 
 def visualizeSession(response, max_image_width=800, clear_previous=False, max_message_height=400, show_screenshot=True, max_cell_height=600):
@@ -109,8 +110,8 @@ def visualizeSession(response, max_image_width=800, clear_previous=False, max_me
             elif isinstance(response.screenshot, str):
                 try:
                     screenshot_html += f'<img src="data:image/png;base64,{response.screenshot}" style="max-width: {max_image_width}px;" />'
-                except:
-                    screenshot_html += "<p><em>Screenshot could not be decoded from base64</em></p>"
+                except (TypeError, ValueError, UnicodeDecodeError) as e:
+                    screenshot_html += f"<p><em>Screenshot error: {type(e).__name__}</em></p>"
             else:
                 screenshot_html += "<p><em>Screenshot in unsupported format</em></p>"
         except Exception as e:
