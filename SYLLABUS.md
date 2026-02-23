@@ -113,19 +113,17 @@ Reading and video lists will be published on Moodle.
 
 For Module 1 (Foundations), students should reference the **NeuralNetworks_Course** repository for foundational theory:
 
-```
-https://github.com/rsouza/NeuralNetworks_Course
-```
+**GitHub:** https://github.com/rsouza/NeuralNetworks_Course
 
 **Recommended Notebooks:**
 
-| Topic | Location | File |
-|-------|----------|------|
-| Neural Network Basics | `Notebooks/Numpy/` | `04a_Numpy_NeuralNetworks.ipynb` |
-| Activation Functions | `Notebooks/Numpy/` | `07_Numpy_ActivationsFunctions.ipynb` |
-| Transformer Architecture | `Notebooks/PyTorch/Attention/` | `PT_the-annotated-transformer.ipynb` |
-| Transformer from Scratch | `Notebooks/PyTorch/Attention/` | `PT_transformer_from_scratch.ipynb` |
-| Annotated Transformer | `Notebooks/PyTorch/Transformers/` | `PT_Annotated_Transformer.ipynb` |
+| Topic | Location | File | Link |
+|-------|----------|------|------|
+| Neural Network Basics | `Notebooks/Numpy/` | `04a_Numpy_NeuralNetworks.ipynb` | [Link](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/Numpy/04a_Numpy_NeuralNetworks.ipynb) |
+| Activation Functions | `Notebooks/Numpy/` | `07_Numpy_ActivationsFunctions.ipynb` | [Link](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/Numpy/07_Numpy_ActivationsFunctions.ipynb) |
+| Transformer Architecture | `Notebooks/PyTorch/Attention/` | `PT_the-annotated-transformer.ipynb` | [Link](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/PyTorch/Attention/PT_the-annotated-transformer.ipynb) |
+| Transformer from Scratch | `Notebooks/PyTorch/Attention/` | `PT_transformer_from_scratch.ipynb` | [Link](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/PyTorch/Attention/PT_transformer_from_scratch.ipynb) |
+| Annotated Transformer | `Notebooks/PyTorch/Transformers/` | `PT_Annotated_Transformer.ipynb` | [Link](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/PyTorch/Transformers/PT_Annotated_Transformer.ipynb) |
 
 These notebooks provide the theoretical background on neural networks, attention mechanisms, and Transformers needed before working with LLMs.
 

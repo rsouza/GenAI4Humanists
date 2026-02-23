@@ -8,12 +8,12 @@
 
 | Topic | Status | Notebook | Notes |
 |-------|--------|----------|-------|
-| Neural Network Fundamentals | 🟡 External | `NeuralNetworks_Course/Notebooks/Numpy/04a_Numpy_NeuralNetworks.ipynb` | Reference external repo |
-| Transformers & Attention | 🟡 External | `NeuralNetworks_Course/Notebooks/PyTorch/Attention/PT_the-annotated-transformer.ipynb` | Reference external repo |
-| Latent Space Concepts | 🟡 External | Covered in AE (Autoencoders) | External reference |
+| Neural Network Fundamentals | 🟡 External | [NeuralNetworks_Course/Notebooks/Numpy/04a_Numpy_NeuralNetworks.ipynb](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/Numpy/04a_Numpy_NeuralNetworks.ipynb) | |
+| Transformers & Attention | 🟡 External | [NeuralNetworks_Course/Notebooks/PyTorch/Attention/PT_the-annotated-transformer.ipynb](https://github.com/rsouza/NeuralNetworks_Course/blob/main/Notebooks/PyTorch/Attention/PT_the-annotated-transformer.ipynb) | |
+| Latent Space Concepts | 🟡 External | [NeuralNetworks_Course/Notebooks/PyTorch/AE/](https://github.com/rsouza/NeuralNetworks_Course/tree/main/Notebooks/PyTorch/AE) | Autoencoders folder |
 | Comparative: Text (LLMs) | 🟡 Partial | `Intro/OpenAI_Intro.ipynb` | API focus, needs theory |
 | Comparative: Images (Diffusion) | 🟢 Available | `Intro/MultiModal_Models.ipynb` | |
-| Comparative: Speech (TTS/STT) | 🔴 Missing | - | Needs creation |
+| Comparative: Speech (TTS/STT) | 🟢 Available | `Intro/MultiModal_Models.ipynb` | Whisper, TTS |
 
 ---
 
@@ -67,7 +67,7 @@
 | Symbol | Meaning |
 |--------|---------|
 | 🟢 Available | Complete, ready to use in this repo |
-| 🟡 External | Available in external repo (NeuralNetworks_Course) |
+| 🟡 External | Available in external repo (NeuralNetworks_Course) - click link to access |
 | 🟡 Partial | Available but needs improvement |
 | 🔴 Missing | Not yet created |
 
@@ -84,7 +84,6 @@
 4. Expand Ollama section with more examples
 5. Add Agentic CLI tutorials (Claude Code, Gemini CLI)
 6. Add Tool Calling notebook
-7. Add Speech/TTS/STT notebook
 
 ### Lower Priority (nice to have)
-8. Create Latent Space visualization notebook (reference NeuralNetworks_Course AE folder)
+7. Create Latent Space visualization notebook (reference NeuralNetworks_Course AE folder)
