@@ -8,9 +8,9 @@
 
 | Topic | Status | Notebook | Notes |
 |-------|--------|----------|-------|
-| Neural Network Fundamentals | 🔴 Missing | - | Needs creation |
-| Transformers & Attention | 🔴 Missing | - | Needs creation |
-| Latent Space Concepts | 🔴 Missing | - | Needs creation |
+| Neural Network Fundamentals | 🟡 External | `NeuralNetworks_Course/Notebooks/Numpy/04a_Numpy_NeuralNetworks.ipynb` | Reference external repo |
+| Transformers & Attention | 🟡 External | `NeuralNetworks_Course/Notebooks/PyTorch/Attention/PT_the-annotated-transformer.ipynb` | Reference external repo |
+| Latent Space Concepts | 🟡 External | Covered in AE (Autoencoders) | External reference |
 | Comparative: Text (LLMs) | 🟡 Partial | `Intro/OpenAI_Intro.ipynb` | API focus, needs theory |
 | Comparative: Images (Diffusion) | 🟢 Available | `Intro/MultiModal_Models.ipynb` | |
 | Comparative: Speech (TTS/STT) | 🔴 Missing | - | Needs creation |
@@ -66,7 +66,8 @@
 
 | Symbol | Meaning |
 |--------|---------|
-| 🟢 Available | Complete, ready to use |
+| 🟢 Available | Complete, ready to use in this repo |
+| 🟡 External | Available in external repo (NeuralNetworks_Course) |
 | 🟡 Partial | Available but needs improvement |
 | 🔴 Missing | Not yet created |
 
@@ -75,17 +76,15 @@
 ## Priority Actions
 
 ### High Priority (must have for course)
-1. Create `lessons/Foundations/The_Transformers.ipynb` - Transformer architecture
-2. Create `lessons/Foundations/Attention_Mechanisms.ipynb` - Attention explained
-3. Create `lessons/Ethics/Responsible_AI.ipynb` - Bias, fairness, deployment
-4. Create `lessons/Ethics/Deepfake_Forensics.ipynb` - Detection techniques
+1. Create `lessons/Ethics/Responsible_AI.ipynb` - Bias, fairness, deployment
+2. Create `lessons/Ethics/Deepfake_Forensics.ipynb` - Detection techniques
 
 ### Medium Priority (important)
-5. Add Google Gemini integration notebook
-6. Expand Ollama section with more examples
-7. Add Agentic CLI tutorials (Claude Code, Gemini CLI)
-8. Add Tool Calling notebook
+3. Add Google Gemini integration notebook
+4. Expand Ollama section with more examples
+5. Add Agentic CLI tutorials (Claude Code, Gemini CLI)
+6. Add Tool Calling notebook
+7. Add Speech/TTS/STT notebook
 
 ### Lower Priority (nice to have)
-9. Add Speech/TTS/STT notebook
-10. Create Latent Space visualization notebook
+8. Create Latent Space visualization notebook (reference NeuralNetworks_Course AE folder)

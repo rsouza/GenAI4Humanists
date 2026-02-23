@@ -105,11 +105,31 @@ This course provides a comprehensive introduction to Generative AI for humanitie
 
 ---
 
-## Reading List
+## Recommended Background Reading
 
 Reading and video lists will be published on Moodle.
 
-**Recommended Background Reading:**
+### External Prerequisites
+
+For Module 1 (Foundations), students should reference the **NeuralNetworks_Course** repository for foundational theory:
+
+```
+https://github.com/rsouza/NeuralNetworks_Course
+```
+
+**Recommended Notebooks:**
+
+| Topic | Location | File |
+|-------|----------|------|
+| Neural Network Basics | `Notebooks/Numpy/` | `04a_Numpy_NeuralNetworks.ipynb` |
+| Activation Functions | `Notebooks/Numpy/` | `07_Numpy_ActivationsFunctions.ipynb` |
+| Transformer Architecture | `Notebooks/PyTorch/Attention/` | `PT_the-annotated-transformer.ipynb` |
+| Transformer from Scratch | `Notebooks/PyTorch/Attention/` | `PT_transformer_from_scratch.ipynb` |
+| Annotated Transformer | `Notebooks/PyTorch/Transformers/` | `PT_Annotated_Transformer.ipynb` |
+
+These notebooks provide the theoretical background on neural networks, attention mechanisms, and Transformers needed before working with LLMs.
+
+### Additional Reading
 - Transformers architecture documentation
 - LangChain/LlamaIndex documentation
 - Ethics in AI (to be provided)
