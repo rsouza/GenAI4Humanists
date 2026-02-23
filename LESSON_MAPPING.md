@@ -26,7 +26,7 @@
 | Chain-of-Thought | 🟢 Available | `Intro/Advanced_Prompting.ipynb` | |
 | OpenAI API | 🟢 Available | `Intro/OpenAI_Intro.ipynb` | |
 | Azure OpenAI | 🟢 Available | `Intro/Azure_Intro.ipynb` | |
-| Google Gemini | 🔴 Missing | - | Needs creation |
+| Google Gemini | 🟢 Available | `Intro/Gemini_Intro.ipynb` | New! |
 | Hugging Face | 🟡 Partial | `OpenSource/` | Basic coverage |
 | Ollama | 🟡 Partial | `OpenSource/Ollama/` | Needs expansion |
 
@@ -80,10 +80,9 @@
 2. Create `lessons/Ethics/Deepfake_Forensics.ipynb` - Detection techniques
 
 ### Medium Priority (important)
-3. Add Google Gemini integration notebook
-4. Expand Ollama section with more examples
-5. Add Agentic CLI tutorials (Claude Code, Gemini CLI)
-6. Add Tool Calling notebook
+3. Expand Ollama section with more examples
+4. Add Agentic CLI tutorials (Claude Code, Gemini CLI)
+5. Add Tool Calling notebook
 
 ### Lower Priority (nice to have)
-7. Create Latent Space visualization notebook (reference NeuralNetworks_Course AE folder)
+6. Create Latent Space visualization notebook (reference NeuralNetworks_Course AE folder)
