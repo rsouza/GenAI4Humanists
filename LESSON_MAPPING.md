@@ -29,7 +29,7 @@
 | Google Gemini | 🟢 Available | `Intro/Gemini_Intro.ipynb` | |
 | Anthropic Claude | 🟢 Available | `Intro/Anthropic_Intro.ipynb` | |
 | Hugging Face | 🟢 Available | `OpenSource/Qwen_2.5/`, `OpenSource/Llama_3.2/`, `OpenSource/Fine-tune/` | Extensive coverage |
-| Ollama | 🟡 Partial | `OpenSource/Use_Cases/` | 2 notebooks |
+| Ollama | 🟢 Available | `OpenSource/Ollama/` | 2 notebooks: local usage, sentiment analysis |
 
 ---
 
