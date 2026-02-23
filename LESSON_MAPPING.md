@@ -26,7 +26,8 @@
 | Chain-of-Thought | 🟢 Available | `Intro/Advanced_Prompting.ipynb` | |
 | OpenAI API | 🟢 Available | `Intro/OpenAI_Intro.ipynb` | |
 | Azure OpenAI | 🟢 Available | `Intro/Azure_Intro.ipynb` | |
-| Google Gemini | 🟢 Available | `Intro/Gemini_Intro.ipynb` | New! |
+| Google Gemini | 🟢 Available | `Intro/Gemini_Intro.ipynb` | |
+| Anthropic Claude | 🟢 Available | `Intro/Anthropic_Intro.ipynb` | New! |
 | Hugging Face | 🟡 Partial | `OpenSource/` | Basic coverage |
 | Ollama | 🟡 Partial | `OpenSource/Ollama/` | Needs expansion |
 
